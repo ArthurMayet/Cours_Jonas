@@ -1,4 +1,8 @@
-public class Planete {
+package com.cours.jonas;
+
+import java.util.ArrayList;
+
+public class Planete implements Element{
     String name;
     long nombreHabitant;
     int diametre;
@@ -30,4 +34,9 @@ public class Planete {
     public void setNombreHabitant(int nombreHabitant) {this.nombreHabitant = nombreHabitant;}
 
     public void setNombreStatteliteNaturel(int nombreStatteliteNaturel) {this.nombreSateliteNaturel = nombreStatteliteNaturel;}
+
+    @Override
+    public ArrayList<Planete> listElement() {
+        return null;
+    }
 }

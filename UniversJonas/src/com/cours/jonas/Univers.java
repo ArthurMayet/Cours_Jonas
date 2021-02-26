@@ -1,12 +1,11 @@
+package com.cours.jonas;
+
 import java.util.ArrayList;
-import java.util.List;
 
 public class Univers {
     String taille = "infini";
     int nombre = 1;
     ArrayList<Galaxy> galaxyArrayList;
-    //difference???
-    //List<Galaxy> galaxyList = new ArrayList<>();
 
     public Univers(String taille, int nombre){
         this.taille = taille;
